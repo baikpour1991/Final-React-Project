@@ -1,0 +1,16 @@
+.sort {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sortTitle {
+  color: var(--grey-white-medium-grey, #a6a6a6);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}

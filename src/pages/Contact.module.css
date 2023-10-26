@@ -1,0 +1,72 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 0 20px;
+  margin: 25px auto;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 0px 8px 1px #ffffff;
+}
+
+.contactHeader {
+  text-align: center;
+}
+
+.contactHeader h1 {
+  color: #333;
+  font-size: 2em;
+  margin: 0;
+  margin-top: 15px;
+  padding: 0;
+}
+
+.contactForm {
+  margin: 0;
+}
+
+.inputGroup {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.inputGroup input,
+.inputGroup textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.inputGroup input:focus,
+.inputGroup textarea:focus {
+  border-color: #0077cc;
+}
+
+.submitButton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #0055a5;
+}

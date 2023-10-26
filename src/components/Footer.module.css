@@ -1,0 +1,32 @@
+.footer {
+  background: var(--grey-white-grey, #292929);
+  display: flex;
+  padding: 24px 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerLinks {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.link {
+  color: var(--grey-white-white, #fff);
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.copyRight {
+  color: var(--grey-white-medium-grey, #a6a6a6);
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}

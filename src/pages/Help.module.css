@@ -1,0 +1,43 @@
+.help {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 1px #fff;
+  margin-bottom: 15px;
+}
+
+.helpHeading {
+  text-align: center;
+  padding-bottom: 20px;
+  color: #333;
+  font-size: 2em;
+  text-shadow: 0 0 5px rgb(0, 0, 255, 0.25);
+}
+
+.helpList {
+  margin-bottom: 20px;
+}
+
+.helpItem {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #fff;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.helpItem:hover {
+  box-shadow: 0 3px 8px 1px #ccc;
+}
+
+.helpItem h2 {
+  color: #0077cc;
+  font-size: 1.5em;
+}
+
+.helpItem p {
+  color: #666;
+}
